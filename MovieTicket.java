@@ -45,9 +45,11 @@ public class MovieTicket {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        
+        System.out.println("please enter the movei name");
         String movieName = scanner.nextLine();
+        System.out.println("pls enter the ticket price");
         double ticketPrice = scanner.nextDouble();
+        System.out.println("please enter the number of tickets");
         int numberOfTickets = scanner.nextInt();
 
         
